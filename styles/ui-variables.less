@@ -1,6 +1,6 @@
 // Colors
 
-@text-color: #444;
+@text-color: #000;
 @text-color-subtle: #999;
 @text-color-highlight: #000;
 @text-color-selected: #fff;
@@ -21,11 +21,11 @@
 @background-color-warning: #ff4800;
 @background-color-error: #c00;
 @background-color-highlight: rgba(0, 0, 0, .1);
-@background-color-selected: #6aa5e9;
+@background-color-selected: #07216C;
 
-@app-background-color: #ccc;
+@app-background-color: #376DA6;
 
-@base-background-color: #f4f4f4;
+@base-background-color: #D3D0C7;
 @base-border-color: #9f9f9f;
 
 @pane-item-background-color: @base-background-color;
@@ -51,13 +51,12 @@
 @button-background-color-selected: #888;
 @button-border-color: rgba(0, 0, 0, 0.15);
 
-@tab-bar-background-color: #d8d8d8;
-@tab-bar-border-color: #ddd;
-@tab-background-color: #e8e8e8;
-@tab-background-color-active: #f0f0f0;
-@tab-border-color: lighten(@base-border-color, 10%);
+@tab-bar-background-color: @base-background-color;
+@tab-bar-border-color: @highlight-2-color;
+@tab-background-color: @base-background-color;
+@tab-background-color-active: @base-background-color;
 
-@tree-view-background-color: #eee;
+@tree-view-background-color: white;
 @tree-view-border-color: @base-border-color;
 
 @ui-site-color-1: @background-color-success; // green
@@ -77,11 +76,16 @@
 @component-icon-padding: 5px;
 @component-icon-size: 16px;
 @component-line-height: 25px;
-@component-border-radius: 2px;
+@component-border-radius: 0px;
 
-@tab-height: 26px;
+@tab-height: 28px;
 
 
 // Other
 
-@font-family: 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+@font-family: 'Tahoma', 'Lucida Grande', 'Segoe UI', Ubuntu, Cantarell, sans-serif;
+
+@shadow-1-color: #848284;
+@shadow-2-color: #424142;
+@highlight-1-color: @base-background-color;
+@highlight-2-color: #fff;

@@ -38,3 +38,25 @@
   color: @text-color-error;
   text-shadow: none;
 }
+
+.ui-tab-shadow {
+  box-shadow:
+    inset -1px 0px 0 @shadow-2-color,
+    inset 1px 1px 0 @highlight-2-color,
+    inset -2px 0px 0 @shadow-1-color,
+    inset 2px 2px 0 @highlight-1-color;
+}
+.ui-raised-shadow {
+  box-shadow:
+    inset -1px -1px 0 @shadow-2-color,
+    inset 1px 1px 0 @highlight-2-color,
+    inset -2px -2px 0 @shadow-1-color,
+    inset 2px 2px 0 @highlight-1-color;
+}
+.ui-inset-shadow {
+  box-shadow:
+    inset -1px -1px 0 @highlight-2-color,
+    inset 1px 1px 0 @shadow-2-color,
+    inset -2px -2px 0 @highlight-1-color,
+    inset 2px 2px 0 @shadow-1-color;
+}
