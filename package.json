@@ -3,7 +3,7 @@
   "theme": "ui",
   "version": "0.43.0",
   "description": "Ａｎ　ＡＥＳＴＨＥＴＩＣ　ＵＩ　tｈｅｍｅ　ｆｏｒ　Ａｔｏｍ",
-  "repository": "https://github.com/atom/atom-light-ui.git",
+  "repository": "https://github.com/dtinth/atom-aesthetic-ui.git",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"
